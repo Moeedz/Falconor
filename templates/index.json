@@ -304,8 +304,8 @@
         "animation_duration": 10,
         "animation_direction": "left",
         "pause_hover": true,
-        "bg": "#ffffff",
-        "text_color": "#000000",
+        "bg": "#3d4040",
+        "text_color": "#ffffff",
         "hover_opacity": 88,
         "padding_horizontal": 2,
         "padding_vertical": 1.5
