@@ -307,8 +307,8 @@
         "bg": "#3d4040",
         "text_color": "#ffffff",
         "hover_opacity": 88,
-        "padding_horizontal": 2,
-        "padding_vertical": 0.7
+        "padding_horizontal": 0,
+        "padding_vertical": 1.5
       }
     }
   },
