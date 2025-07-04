@@ -230,58 +230,6 @@
         "content_link_underline": false
       }
     },
-    "17516535049fa56a5e": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_798f887_yibheM": {
-          "type": "ai_gen_block_798f887",
-          "settings": {
-            "announcement_count": 3,
-            "announcement_1": "Free shipping on all orders over $50",
-            "icon_1": "energy",
-            "link_1": "",
-            "announcement_2": "New arrivals just dropped!",
-            "icon_2": "star",
-            "link_2": "",
-            "announcement_3": "Limited time offer: Use code SAVE20 for 20% off",
-            "icon_3": "tag",
-            "link_3": "",
-            "announcement_4": "",
-            "icon_4": "",
-            "link_4": "",
-            "announcement_5": "",
-            "icon_5": "",
-            "link_5": "",
-            "scroll_speed": 50,
-            "pause_on_hover": false,
-            "show_controls": false,
-            "background_color": "#000000",
-            "text_color": "#000000",
-            "icon_color": "#000000",
-            "control_color": "#000000",
-            "control_background": "#ffffff",
-            "show_underline": false,
-            "padding": 10,
-            "height": 40,
-            "height_mobile": 36,
-            "item_spacing": 50,
-            "text_size": 14,
-            "text_size_mobile": 12,
-            "text_weight": "400",
-            "text_transform": "none",
-            "letter_spacing": 0.5,
-            "icon_size": 16,
-            "icon_size_mobile": 14
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_798f887_yibheM"
-      ],
-      "disabled": true,
-      "settings": {}
-    },
     "ss_scrolling_announcement_bar_EP7XPB": {
       "type": "ss-scrolling-announcement-bar",
       "blocks": {
@@ -315,7 +263,6 @@
   "order": [
     "slideshow_G9P9tz",
     "ss_tabs_mpVigh",
-    "17516535049fa56a5e",
     "ss_scrolling_announcement_bar_EP7XPB"
   ]
 }
