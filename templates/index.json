@@ -288,7 +288,7 @@
         "text_nDEcKE": {
           "type": "text",
           "settings": {
-            "text": "Text comes here"
+            "text": "REFLECT FASHIONS"
           }
         }
       },
@@ -299,10 +299,10 @@
       "settings": {
         "insert_css_class_target": "",
         "text_size": 13,
-        "ss_font_family": "montserrat_n4",
+        "ss_font_family": "archivo_narrow_n6",
         "link": "",
         "animation_duration": 90,
-        "animation_direction": "right",
+        "animation_direction": "left",
         "pause_hover": false,
         "bg": "#ffffff",
         "text_color": "#000000",
