@@ -80,7 +80,7 @@
       "settings": {
         "enable_sticky_header": true,
         "logo": "shopify://shop_images/Falconor_Black_000000_80d34287-32b4-43f5-b10e-b2243257b8b9.png",
-        "logo_max_width": 70,
+        "logo_max_width": 100,
         "mobile_logo_max_width": 55,
         "navigation_menu": "main-menu",
         "sidebar_navigation_menu": "main-menu",
