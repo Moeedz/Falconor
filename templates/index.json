@@ -252,8 +252,8 @@
             "announcement_5": "",
             "icon_5": "",
             "link_5": "",
-            "scroll_speed": 30,
-            "pause_on_hover": true,
+            "scroll_speed": 50,
+            "pause_on_hover": false,
             "show_controls": false,
             "background_color": "#000000",
             "text_color": "#000000",
@@ -279,12 +279,43 @@
       "block_order": [
         "ai_gen_block_798f887_yibheM"
       ],
+      "disabled": true,
       "settings": {}
+    },
+    "ss_scrolling_announcement_bar_EP7XPB": {
+      "type": "ss-scrolling-announcement-bar",
+      "blocks": {
+        "text_nDEcKE": {
+          "type": "text",
+          "settings": {
+            "text": "Text comes here"
+          }
+        }
+      },
+      "block_order": [
+        "text_nDEcKE"
+      ],
+      "name": "SS - Scrolling Announcement Bar",
+      "settings": {
+        "insert_css_class_target": "",
+        "text_size": 13,
+        "ss_font_family": "montserrat_n4",
+        "link": "",
+        "animation_duration": 90,
+        "animation_direction": "right",
+        "pause_hover": false,
+        "bg": "#ffffff",
+        "text_color": "#000000",
+        "hover_opacity": 88,
+        "padding_horizontal": 2,
+        "padding_vertical": 1.5
+      }
     }
   },
   "order": [
     "slideshow_G9P9tz",
     "ss_tabs_mpVigh",
-    "17516535049fa56a5e"
+    "17516535049fa56a5e",
+    "ss_scrolling_announcement_bar_EP7XPB"
   ]
 }
