@@ -1,6 +1,784 @@
+{% doc %}
+  @prompt
+    Create a responsive scrolling section that has different functionality on desktop versus mobile devices. On desktop, it should have smooth horizontal scrolling with navigation arrows or dots. On mobile, it should have touch-friendly vertical scrolling or swipe gestures. Include customizable content areas and ensure the section adapts seamlessly between the two layouts with appropriate CSS media queries., i don't need a images option i need a text that should auto play option like marquee,  scrolling announcement section
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-announcement-bar-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: {{ block.settings.background_color }};
+    padding: {{ block.settings.padding }}px 0;
+  }
+
+  .ai-announcement-track-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    height: {{ block.settings.height }}px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .ai-announcement-marquee-{{ ai_gen_id }} {
+    display: flex;
+    white-space: nowrap;
+    animation: ai-announcement-scroll-{{ ai_gen_id }} {{ block.settings.scroll_speed }}s linear infinite;
+    animation-play-state: running;
+  }
+
+  .ai-announcement-item-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 {{ block.settings.item_spacing }}px;
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    font-weight: {{ block.settings.text_weight }};
+    text-transform: {{ block.settings.text_transform }};
+    letter-spacing: {{ block.settings.letter_spacing }}px;
+  }
+
+  .ai-announcement-icon-{{ ai_gen_id }} {
+    display: inline-flex;
+    margin-right: 8px;
+  }
+
+  .ai-announcement-icon-{{ ai_gen_id }} svg {
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    stroke: {{ block.settings.icon_color }};
+    stroke-width: 2;
+    fill: none;
+  }
+
+  @keyframes ai-announcement-scroll-{{ ai_gen_id }} {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .ai-announcement-bar-{{ ai_gen_id }}:hover .ai-announcement-marquee-{{ ai_gen_id }} {
+    animation-play-state: {{ block.settings.pause_on_hover | default: false | json }};
+  }
+
+  .ai-announcement-controls-{{ ai_gen_id }} {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .ai-announcement-control-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: {{ block.settings.control_background }};
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 0;
+  }
+
+  .ai-announcement-control-{{ ai_gen_id }} svg {
+    width: 14px;
+    height: 14px;
+    stroke: {{ block.settings.control_color }};
+    stroke-width: 2;
+    fill: none;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-announcement-item-{{ ai_gen_id }} {
+      font-size: {{ block.settings.text_size_mobile }}px;
+    }
+    
+    .ai-announcement-track-{{ ai_gen_id }} {
+      height: {{ block.settings.height_mobile }}px;
+    }
+    
+    .ai-announcement-icon-{{ ai_gen_id }} svg {
+      width: {{ block.settings.icon_size_mobile }}px;
+      height: {{ block.settings.icon_size_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<announcement-bar-{{ ai_gen_id }} class="ai-announcement-bar-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-announcement-track-{{ ai_gen_id }}">
+    <div class="ai-announcement-marquee-{{ ai_gen_id }}">
+      {% for i in (1..5) %}
+        {% for j in (1..block.settings.announcement_count) %}
+          {% assign announcement_key = 'announcement_' | append: j %}
+          {% assign icon_key = 'icon_' | append: j %}
+          {% assign link_key = 'link_' | append: j %}
+          
+          {% if block.settings[announcement_key] != blank %}
+            <div class="ai-announcement-item-{{ ai_gen_id }}">
+              {% if block.settings[icon_key] != blank %}
+                <span class="ai-announcement-icon-{{ ai_gen_id }}">
+                  {% case block.settings[icon_key] %}
+                    {% when 'star' %}
+                      <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    {% when 'info' %}
+                      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                    {% when 'alert' %}
+                      <svg viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                    {% when 'truck' %}
+                      <svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                    {% when 'gift' %}
+                      <svg viewBox="0 0 24 24"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
+                    {% when 'tag' %}
+                      <svg viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+                    {% when 'clock' %}
+                      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    {% when 'check' %}
+                      <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    {% when 'heart' %}
+                      <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>{% endcase %}
+                </span>
+              {% endif %}
+              
+              {% if block.settings[link_key] != blank %}
+                <a href="{{ block.settings[link_key] }}" style="color: {{ block.settings.text_color }}; text-decoration: {{ block.settings.show_underline | default: false | ternary: 'underline', 'none' }};">
+                  {{ block.settings[announcement_key] }}
+                </a>
+              {% else %}
+                <span>{{ block.settings[announcement_key] }}</span>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+  
+  {% if block.settings.show_controls %}
+    <div class="ai-announcement-controls-{{ ai_gen_id }}">
+      <button class="ai-announcement-control-{{ ai_gen_id }} ai-announcement-pause-{{ ai_gen_id }}" aria-label="Pause scrolling">
+        <svg class="ai-pause-icon-{{ ai_gen_id }}" viewBox="0 0 24 24">
+          <rect x="6" y="4" width="4" height="16"></rect>
+          <rect x="14" y="4" width="4" height="16"></rect>
+        </svg>
+        <svg class="ai-play-icon-{{ ai_gen_id }}" viewBox="0 0 24 24" style="display: none;">
+          <polygon points="5 3 19 12 5 21 5 3"></polygon>
+        </svg>
+      </button>
+    </div>
+  {% endif %}
+</announcement-bar-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class AnnouncementBar{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.marquee = this.querySelector('.ai-announcement-marquee-{{ ai_gen_id }}');
+        this.pauseButton = this.querySelector('.ai-announcement-pause-{{ ai_gen_id }}');
+        this.pauseIcon = this.querySelector('.ai-pause-icon-{{ ai_gen_id }}');
+        this.playIcon = this.querySelector('.ai-play-icon-{{ ai_gen_id }}');
+        this.isPaused = false;
+        this.setupEventListeners();
+        this.duplicateContent();
+      }
+      
+      connectedCallback() {
+        // This method is called when the element is added to the DOM
+      }
+      
+      duplicateContent() {
+        // Clone the items to ensure smooth infinite scrolling
+        const items = this.marquee.querySelectorAll('.ai-announcement-item-{{ ai_gen_id }}');
+        const itemsArray = Array.from(items);
+        
+        // Create a clone of each item and append it to ensure smooth looping
+        itemsArray.forEach(item => {
+          const clone = item.cloneNode(true);
+          this.marquee.appendChild(clone);
+        });
+      }
+      
+      setupEventListeners() {
+        if (this.pauseButton) {
+          this.pauseButton.addEventListener('click', () => {
+            this.togglePause();
+          });
+        }
+      }
+      
+      togglePause() {
+        this.isPaused = !this.isPaused;
+        
+        if (this.isPaused) {
+          this.marquee.style.animationPlayState = 'paused';
+          if (this.pauseIcon && this.playIcon) {
+            this.pauseIcon.style.display = 'none';
+            this.playIcon.style.display = 'block';
+          }
+        } else {
+          this.marquee.style.animationPlayState = 'running';
+          if (this.pauseIcon && this.playIcon) {
+            this.pauseIcon.style.display = 'block';
+            this.playIcon.style.display = 'none';
+          }
+        }
+      }
+    }
+    
+    customElements.define('announcement-bar-{{ ai_gen_id }}', AnnouncementBar{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Scrolling Announcements",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Announcements"
+    },
+    {
+      "type": "range",
+      "id": "announcement_count",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "label": "Number of announcements",
+      "default": 3
+    },
+    {
+      "type": "header",
+      "content": "Announcement 1"
+    },
+    {
+      "type": "text",
+      "id": "announcement_1",
+      "label": "Text",
+      "default": "Free shipping on all orders over $50"
+    },
+    {
+      "type": "select",
+      "id": "icon_1",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "truck",
+          "label": "Truck"
+        },
+        {
+          "value": "star",
+          "label": "Star"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        },
+        {
+          "value": "alert",
+          "label": "Alert"
+        },
+        {
+          "value": "gift",
+          "label": "Gift"
+        },
+        {
+          "value": "tag",
+          "label": "Tag"
+        },
+        {
+          "value": "clock",
+          "label": "Clock"
+        },
+        {
+          "value": "check",
+          "label": "Check"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        }
+      ],
+      "default": "truck"
+    },
+    {
+      "type": "url",
+      "id": "link_1",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Announcement 2"
+    },
+    {
+      "type": "text",
+      "id": "announcement_2",
+      "label": "Text",
+      "default": "New arrivals just dropped!"
+    },
+    {
+      "type": "select",
+      "id": "icon_2",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "truck",
+          "label": "Truck"
+        },
+        {
+          "value": "star",
+          "label": "Star"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        },
+        {
+          "value": "alert",
+          "label": "Alert"
+        },
+        {
+          "value": "gift",
+          "label": "Gift"
+        },
+        {
+          "value": "tag",
+          "label": "Tag"
+        },
+        {
+          "value": "clock",
+          "label": "Clock"
+        },
+        {
+          "value": "check",
+          "label": "Check"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        }
+      ],
+      "default": "star"
+    },
+    {
+      "type": "url",
+      "id": "link_2",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Announcement 3"
+    },
+    {
+      "type": "text",
+      "id": "announcement_3",
+      "label": "Text",
+      "default": "Limited time offer: Use code SAVE20 for 20% off"
+    },
+    {
+      "type": "select",
+      "id": "icon_3",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "truck",
+          "label": "Truck"
+        },
+        {
+          "value": "star",
+          "label": "Star"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        },
+        {
+          "value": "alert",
+          "label": "Alert"
+        },
+        {
+          "value": "gift",
+          "label": "Gift"
+        },
+        {
+          "value": "tag",
+          "label": "Tag"
+        },
+        {
+          "value": "clock",
+          "label": "Clock"
+        },
+        {
+          "value": "check",
+          "label": "Check"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        }
+      ],
+      "default": "tag"
+    },
+    {
+      "type": "url",
+      "id": "link_3",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Announcement 4"
+    },
+    {
+      "type": "text",
+      "id": "announcement_4",
+      "label": "Text"
+    },
+    {
+      "type": "select",
+      "id": "icon_4",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "truck",
+          "label": "Truck"
+        },
+        {
+          "value": "star",
+          "label": "Star"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        },
+        {
+          "value": "alert",
+          "label": "Alert"
+        },
+        {
+          "value": "gift",
+          "label": "Gift"
+        },
+        {
+          "value": "tag",
+          "label": "Tag"
+        },
+        {
+          "value": "clock",
+          "label": "Clock"
+        },
+        {
+          "value": "check",
+          "label": "Check"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        }
+      ],
+      "default": ""
+    },
+    {
+      "type": "url",
+      "id": "link_4",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Announcement 5"
+    },
+    {
+      "type": "text",
+      "id": "announcement_5",
+      "label": "Text"
+    },
+    {
+      "type": "select",
+      "id": "icon_5",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "truck",
+          "label": "Truck"
+        },
+        {
+          "value": "star",
+          "label": "Star"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        },
+        {
+          "value": "alert",
+          "label": "Alert"
+        },
+        {
+          "value": "gift",
+          "label": "Gift"
+        },
+        {
+          "value": "tag",
+          "label": "Tag"
+        },
+        {
+          "value": "clock",
+          "label": "Clock"
+        },
+        {
+          "value": "check",
+          "label": "Check"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        }
+      ],
+      "default": ""
+    },
+    {
+      "type": "url",
+      "id": "link_5",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Scrolling"
+    },
+    {
+      "type": "range",
+      "id": "scroll_speed",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "s",
+      "label": "Scroll speed",
+      "default": 20
+    },
+    {
+      "type": "checkbox",
+      "id": "pause_on_hover",
+      "label": "Pause on hover",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_controls",
+      "label": "Show pause/play button",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Appearance"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "control_color",
+      "label": "Control button color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "control_background",
+      "label": "Control button background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_underline",
+      "label": "Show underline on links",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "padding",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Vertical padding",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "height",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Height (desktop)",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "height_mobile",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Height (mobile)",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "item_spacing",
+      "min": 20,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Space between announcements",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Text size (desktop)",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "text_size_mobile",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Text size (mobile)",
+      "default": 12
+    },
+    {
+      "type": "select",
+      "id": "text_weight",
+      "label": "Text weight",
+      "options": [
+        {
+          "value": "400",
+          "label": "Regular"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semibold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ],
+      "default": "400"
+    },
+    {
+      "type": "select",
+      "id": "text_transform",
+      "label": "Text transform",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "uppercase",
+          "label": "Uppercase"
+        },
+        {
+          "value": "lowercase",
+          "label": "Lowercase"
+        },
+        {
+          "value": "capitalize",
+          "label": "Capitalize"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "range",
+      "id": "letter_spacing",
+      "min": 0,
+      "max": 2,
+      "step": 0.1,
+      "unit": "px",
+      "label": "Letter spacing",
+      "default": 0.5
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Icon size (desktop)",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "icon_size_mobile",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Icon size (mobile)",
+      "default": 14
+    }
+  ],
+  "presets": [
+    {
+      "name": "Scrolling Announcements"
+    }
+  ]
+}
 {% endschema %}
