@@ -106,7 +106,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "liquid": "<b style=\"font-size:11px; color:white;\"><marquee>All orders confirmed by June 1st will be delivered to customers&nbsp;before&nbsp;Eid!",
+        "liquid": "",
         "add_vertical_spacing": true,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
