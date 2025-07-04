@@ -106,10 +106,10 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<b style=\"font-size:32px; color:white;\"><marquee>All orders confirmed by June 1st will be delivered to customers before Eid!</marquee></b>",
-        "add_vertical_spacing": true,
+        "html": "<meta charset=\"UTF-8\">\n  <title>Reflect Fashions</title>\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\">\n  <style>\n    body {\n      background-color: #;\n      margin: 0;\n      padding: 0;\n      color: black;\n      font-family: Arial, sans-serif;\n    }\n\n    .marquee-container {\n      overflow: hidden;\n      white-space: nowrap;\n      background-color: ;\n      padding: 20px 0;\n    }\n\n    .marquee-track {\n      display: inline-block;\n      animation: marquee 30s linear infinite;\n    }\n\n    .marquee-content {\n      display: inline-block;\n      font-size: 25px;\n      padding-right: 50px;\n      color: black;\n    }\n\n    .fa-bolt {\n      color: yellow;\n      margin-left: 8px;\n    }\n\n    @keyframes marquee {\n      0%   { transform: translateX(0%); }\n      100% { transform: translateX(-100%); }\n    }\n  </style>\n\n\n  <div class=\"marquee-container\">\n    <div class=\"marquee-track\">\n      <!-- Repeat the content several times to create a loop effect -->\n      <span class=\"marquee-content\">REFLECT FASHIONS <i class=\"fa-solid fa-bolt\"></i></span>\n      <span class=\"marquee-content\">REFLECT FASHIONS <i class=\"fa-solid fa-bolt\"></i></span>\n      <span class=\"marquee-content\">REFLECT FASHIONS <i class=\"fa-solid fa-bolt\"></i></span>\n      <span class=\"marquee-content\">REFLECT FASHIONS <i class=\"fa-solid fa-bolt\"></i></span>\n      <span class=\"marquee-content\">REFLECT FASHIONS <i class=\"fa-solid fa-bolt\"></i></span>\n      <span class=\"marquee-content\">REFLECT FASHIONS <i class=\"fa-solid fa-bolt\"></i></span>\n    </div>\n  </div>",
+        "add_vertical_spacing": false,
         "background_type": "full_width",
-        "background": "#000000",
+        "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
     },
