@@ -100,13 +100,13 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "custom_liquid_Rj3w4D": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
+    "custom_html_gythtr": {
+      "type": "custom-html",
+      "name": "Custom HTML",
       "settings": {
         "subheading": "",
         "title": "",
-        "liquid": "",
+        "html": "<b style=\"font-size:11px; color:white;\"><marquee>All orders confirmed by June 1st will be delivered to customers before Eid!</marquee></b>",
         "add_vertical_spacing": true,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -245,7 +245,7 @@
   },
   "order": [
     "slideshow_G9P9tz",
-    "custom_liquid_Rj3w4D",
+    "custom_html_gythtr",
     "ss_tabs_mpVigh"
   ]
 }
