@@ -83,12 +83,12 @@
         "mobile_logo_max_width": 55,
         "navigation_menu": "main-menu",
         "sidebar_navigation_menu": "main-menu",
-        "header_layout": "logo_left_navigation_inline",
+        "header_layout": "logo_center_search_open",
         "show_icons": true,
-        "reduce_desktop_padding": true,
+        "reduce_desktop_padding": false,
         "show_locale_selector": false,
         "show_country_selector": false,
-        "enable_transparent_header": true,
+        "enable_transparent_header": false,
         "transparent_header_text_color": "#1a1a1a",
         "search_menu": ""
       }
