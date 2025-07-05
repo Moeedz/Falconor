@@ -149,10 +149,27 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "17517295764dbe97d8": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_qpmXxi": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_qpmXxi"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
     }
   },
   "order": [
     "main",
+    "17517295764dbe97d8",
     "product-content",
     "3acbed45-0150-4bc5-aacb-1cb0c5292ace",
     "product_recommendations_QMtLrA"

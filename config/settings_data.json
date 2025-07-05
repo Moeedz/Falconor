@@ -81,69 +81,10 @@
     },
     "content_for_index": [],
     "blocks": {
-      "9665041477255479644": {
-        "type": "shopify://apps/mf-infinite-scroll-pro/blocks/to_top/dc16402b-99b8-4c8d-8713-7e8ba921b836",
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-          "button_type": "icon",
-          "icon_type": "arrow1",
-          "button_text": "Top",
-          "button_style": "not_rounded",
-          "button_position": "right",
-          "margin_x": 20,
-          "margin_y": 20,
-          "bg_color": "#333333DD",
-          "icon_color": "#FFFFFF",
-          "show_position": 200
-        }
-      },
-      "8949129509217075300": {
-        "type": "shopify://apps/mf-infinite-scroll-pro/blocks/scroll/dc16402b-99b8-4c8d-8713-7e8ba921b836",
-        "disabled": true,
-        "settings": {
-          "is_collection_enabled_mf2311bc": true,
-          "grid_item_class_name_mf2311bc": "",
-          "grid_item_css_selector_mf2311bc": "",
-          "pagenation_class_name_mf2311bc": "",
-          "pagination_css_selector_mf2311bc": "",
-          "is_blog_enabled_mf2311bc": true,
-          "blog_grid_item_class_name_mf2311bc": "",
-          "blog_pagenation_class_name_mf2311bc": "",
-          "is_serach_enabled_mf2311bc": true,
-          "search_grid_item_class_name_mf2311bc": "",
-          "search_pagenation_class_name_mf2311bc": "",
-          "loading_color": "#008060",
-          "is_loadmore_enabled_mf2311bc": false,
-          "loadmore_button_mf2311bc": "infinite_mf2311bc_btn_01",
-          "loadmore_text_mf2311bc": "",
-          "button_color": "#008060",
-          "load_margin_mf2311bc": 8
-        }
-      },
-      "5090583634437777045": {
-        "type": "shopify://apps/mf-infinite-scroll-pro/blocks/scroll_v2/dc16402b-99b8-4c8d-8713-7e8ba921b836",
-        "disabled": true,
-        "settings": {
-          "enable_collection": true,
-          "collection_grid_css_selector": "",
-          "collection_pagination_css_selector": "",
-          "enable_blog": false,
-          "blog_grid_css_selector": "",
-          "blog_pagination_css_selector": "",
-          "enable_search": false,
-          "search_grid_css_selector": "",
-          "search_pagination_css_selector": "",
-          "enable_loadmore": false,
-          "loadmore_button_style": "rectangle_01",
-          "loadmore_text": "",
-          "button_color": "#008060",
-          "custom_button": "",
-          "loader_style": "spinner_02",
-          "loading_color": "#000000",
-          "indicator_text": "",
-          "custom_loader": "",
-          "cache_limit": 100
-        }
+        "settings": {}
       }
     }
   },
