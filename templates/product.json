@@ -47,6 +47,10 @@
           "settings": {
             "liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0710/8096/8460/files/KostenloserVersand_Umtausch-3_2048x2048.png?v=1701306086\" alt=\"\" data-mce-fragment=\"1\" data-mce-src=\"https://cdn.shopify.com/s/files/1/0710/8096/8460/files/KostenloserVersand_Umtausch-3_2048x2048.png?v=1701306086\">"
           }
+        },
+        "description_FYHqyy": {
+          "type": "description",
+          "settings": {}
         }
       },
       "block_order": [
@@ -54,7 +58,8 @@
         "variant_picker",
         "quantity_selector_8BhAeL",
         "buy_buttons",
-        "5b5f29fd-4df5-40a3-8032-5a4bd185072b"
+        "5b5f29fd-4df5-40a3-8032-5a4bd185072b",
+        "description_FYHqyy"
       ],
       "settings": {
         "show_vendor": false,
@@ -77,6 +82,7 @@
       "blocks": {
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         },
         "dc5b6ad0-3ba5-42ba-a301-2d6b84702967": {
