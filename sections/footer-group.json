@@ -48,7 +48,9 @@
         "links_QhTd77",
         "social_media_twg9BU"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".footer__item.footer__item--image.is-first {display: flex; justify-content: center;}"
+      ],
       "settings": {
         "show_payment_icons": true,
         "enable_follow_on_shop": false,
