@@ -263,7 +263,7 @@
       "settings": {
         "items_gap": 18,
         "items_gap_mobile": 20,
-        "row_height": 230,
+        "row_height": 300,
         "row_height_mobile": 200,
         "background_color": "#FFFFFF",
         "background_gradient": "",
