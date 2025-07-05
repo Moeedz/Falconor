@@ -278,11 +278,141 @@
         "content_width": 120,
         "border_thickness": 0
       }
+    },
+    "ss_tabs_3WmkWp": {
+      "type": "ss-tabs",
+      "blocks": {
+        "tab_9frFhk": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 1",
+            "product_description": false,
+            "content": "<p>Tab content 1</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2"
+          }
+        },
+        "tab_ehzqrC": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "product_description": false,
+            "content": "<p>Tab content 2</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2"
+          }
+        },
+        "tab_bWdhLb": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "product_description": false,
+            "content": "<p>Tab content 3</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2"
+          }
+        },
+        "tab_ppjxgY": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 4",
+            "product_description": false,
+            "content": "<p>Tab content 4</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "tab_9frFhk",
+        "tab_ehzqrC",
+        "tab_bWdhLb",
+        "tab_ppjxgY"
+      ],
+      "name": "SS - Tabs",
+      "settings": {
+        "section_class": "",
+        "background-color": "#ffffff",
+        "padding_top_desktop": 36,
+        "padding_bottom_desktop": 36,
+        "padding_horizontal_desktop": 50,
+        "margin_top_desktop": 36,
+        "margin_bottom_desktop": 36,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 15,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "section-width": 120,
+        "section_title": "More information",
+        "section_title_html_element": "h2",
+        "section_title_text_align_desktop": "center",
+        "section_title_color": "#000000",
+        "section_title_font_weight": "inherit",
+        "section_title_font_size_desktop": 0,
+        "section_title_line_height_desktop": 0,
+        "section_title_letter_spacing_desktop": 0,
+        "section_title_margin_top_desktop": 36,
+        "section_title_margin_bottom_desktop": 36,
+        "section_title_text_align": "center",
+        "section_title_line_height": 0,
+        "section_title_letter_spacing": 0,
+        "section_title_margin_top": 36,
+        "section_title_margin_bottom": 24,
+        "section_tab_title_font_weight": "inherit",
+        "tab_style": "with-border",
+        "tab_border_width": 1,
+        "tab_border_radius": 0,
+        "tab_border_color": "#000000",
+        "tab_background_color": "#FFFFFF",
+        "tab_text_color": "#000000",
+        "tab_active_hover_background_color": "#000000",
+        "tab_active_state_selector": "background_color",
+        "tab_active_title_color": "#FFFFFF",
+        "tag_alignment": "fullwidth",
+        "tab_padding_vertical_desktop": 14,
+        "tab_padding_horizontal_desktop": 14,
+        "tab_gap_desktop": 10,
+        "tab_title_font_size_desktop": 0,
+        "tab_title_line_height_desktop": 0,
+        "tab_title_letter_spacing_desktop": 0,
+        "tab_padding_vertical": 12,
+        "tab_padding_horizontal": 12,
+        "tab_gap": 6,
+        "tab_title_line_height": 0,
+        "tab_title_letter_spacing": 0,
+        "content_background_color": "transparent",
+        "content_border_color": "#000000",
+        "content_border_width": 1,
+        "content_border_radius": 0,
+        "content_padding_top_desktop": 20,
+        "content_padding_horizontal_desktop": 20,
+        "content_padding_bottom_desktop": 20,
+        "content_padding_horizontal": 20,
+        "content_padding_top": 20,
+        "content_padding_bottom": 20,
+        "content_text_align_desktop": "left",
+        "content_text_color": "#000000",
+        "content_text_font_weight": "inherit",
+        "content_text_font_size_desktop": 0,
+        "content_text_line_height_desktop": 0,
+        "content_text_letter_spacing_desktop": 0,
+        "content_text_align": "left",
+        "content_text_line_height": 0,
+        "content_text_letter_spacing": 0,
+        "content_link_color": "#000000",
+        "content_link_underline": false
+      }
     }
   },
   "order": [
     "slideshow_G9P9tz",
     "ss_scrolling_announcement_bar_EP7XPB",
-    "ss_media_grid_rmzBib"
+    "ss_media_grid_rmzBib",
+    "ss_tabs_3WmkWp"
   ]
 }
