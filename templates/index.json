@@ -233,7 +233,7 @@
       "custom_css": [
         ".section__color-wrapper {background-color: white !important; color: #3d4040;}",
         "@media screen and (min-width: 768px) {.content-box.content-box--large.content-box--text-left.content-box--left.text-container {font-size: 30px; margin-left: -112px; }}",
-        "@media screen and (max-width: 767px) {.content-box.content-box--large.content-box--text-left.content-box--left.text-container {font-size: 23px; }}"
+        "@media screen and (max-width: 767px) {.content-box.content-box--large.content-box--text-left.content-box--left.text-container {font-size: 21px; }}"
       ],
       "name": "Rich text",
       "settings": {
