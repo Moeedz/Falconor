@@ -44,7 +44,6 @@
         },
         "description_FYHqyy": {
           "type": "description",
-          "disabled": true,
           "settings": {}
         },
         "5b5f29fd-4df5-40a3-8032-5a4bd185072b": {
@@ -63,7 +62,7 @@
         "5b5f29fd-4df5-40a3-8032-5a4bd185072b"
       ],
       "custom_css": [
-        "@media screen and (min-width: 768px) {.container, .shopify-policy__container.shopify-policy__container {max-width: 95%; margin-right: 0px !important; margin-left: 0px !important;}}"
+        "@media screen and (min-width: 768px) {.container, .shopify-policy__container.shopify-policy__container {max-width: 95%; margin-right: 0px !important; margin-left: 0px !important; }}"
       ],
       "settings": {
         "show_vendor": false,
