@@ -42,15 +42,15 @@
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
         },
+        "description_FYHqyy": {
+          "type": "description",
+          "settings": {}
+        },
         "5b5f29fd-4df5-40a3-8032-5a4bd185072b": {
           "type": "liquid",
           "settings": {
             "liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0710/8096/8460/files/KostenloserVersand_Umtausch-3_2048x2048.png?v=1701306086\" alt=\"\" data-mce-fragment=\"1\" data-mce-src=\"https://cdn.shopify.com/s/files/1/0710/8096/8460/files/KostenloserVersand_Umtausch-3_2048x2048.png?v=1701306086\">"
           }
-        },
-        "description_FYHqyy": {
-          "type": "description",
-          "settings": {}
         }
       },
       "block_order": [
@@ -58,22 +58,22 @@
         "variant_picker",
         "quantity_selector_8BhAeL",
         "buy_buttons",
-        "5b5f29fd-4df5-40a3-8032-5a4bd185072b",
-        "description_FYHqyy"
+        "description_FYHqyy",
+        "5b5f29fd-4df5-40a3-8032-5a4bd185072b"
       ],
       "settings": {
         "show_vendor": false,
         "show_sku": false,
         "show_taxes_included": true,
         "show_product_rating": true,
-        "show_sticky_add_to_cart": true,
+        "show_sticky_add_to_cart": false,
         "show_share_buttons": false,
         "help_page": "",
         "enable_video_autoplay": false,
         "enable_video_looping": false,
         "enable_image_zoom": false,
         "show_thumbnails_on_mobile": true,
-        "desktop_thumbnails_position": "bottom",
+        "desktop_thumbnails_position": "left",
         "transition_effect": "fade"
       }
     },
