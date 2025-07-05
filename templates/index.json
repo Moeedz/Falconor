@@ -429,6 +429,52 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "image_with_text_nDBEnD": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_4DFpU3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Men_collection_photo.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Everyday Essentials Brand",
+            "content": "<h5>Our clothing is all about comfort, simplicity, and everyday style. Whether you're working, lounging, or on the move — we’ve got the pieces that move with you.</h5>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "item_QXfRyP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/unisex-sports-jersey-black-front-67ad0d19219f3.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Modern Clothing",
+            "content": "<h5>Step into timeless style with designs crafted for elegance, comfort, and confidence. Our collections blend contemporary trends with classic quality — made to last, made for you.</h5>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_4DFpU3",
+        "item_QXfRyP"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 3,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -437,6 +483,7 @@
     "ss_media_grid_rmzBib",
     "rich_text_DR4hTm",
     "rich_text_jAhQaY",
-    "ss_scrolling_images_6tGVfJ"
+    "ss_scrolling_images_6tGVfJ",
+    "image_with_text_nDBEnD"
   ]
 }
