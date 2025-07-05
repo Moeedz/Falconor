@@ -281,6 +281,9 @@
     },
     "rich_text_DR4hTm": {
       "type": "rich-text",
+      "custom_css": [
+        ".section__color-wrapper {background-color: white !important; color: #3d4040;}"
+      ],
       "name": "Rich text",
       "settings": {
         "subheading": "",
@@ -300,6 +303,9 @@
     },
     "rich_text_jAhQaY": {
       "type": "rich-text",
+      "custom_css": [
+        ".section__color-wrapper {background-color: white !important; color: #3d4040;}"
+      ],
       "name": "Rich text",
       "settings": {
         "subheading": "",
@@ -308,7 +314,7 @@
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
-        "text_width": "small",
+        "text_width": "medium",
         "text_position": "right",
         "text_alignment": "left",
         "background": "rgba(0,0,0,0)",
