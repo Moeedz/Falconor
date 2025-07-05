@@ -61,7 +61,9 @@
         "description_FYHqyy",
         "5b5f29fd-4df5-40a3-8032-5a4bd185072b"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {h1.product-meta__title.heading.h3 {font-size: 16px;}}"
+      ],
       "settings": {
         "show_vendor": false,
         "show_sku": false,
