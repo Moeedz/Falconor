@@ -13,6 +13,41 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "image_66qAR8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Falconor_Black_000000_80d34287-32b4-43f5-b10e-b2243257b8b9.png",
+            "image_width": 150
+          }
+        },
+        "text_e3Gn7c": {
+          "type": "text",
+          "settings": {
+            "title": "About our store",
+            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"
+          }
+        },
+        "links_QhTd77": {
+          "type": "links",
+          "settings": {
+            "menu": "footer"
+          }
+        },
+        "social_media_twg9BU": {
+          "type": "social_media",
+          "settings": {
+            "title": "Follow us",
+            "content": "<p>To configure social media, go to your social media settings. Change this text in the theme editor.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_66qAR8",
+        "text_e3Gn7c",
+        "links_QhTd77",
+        "social_media_twg9BU"
+      ],
       "custom_css": [],
       "settings": {
         "show_payment_icons": true,
