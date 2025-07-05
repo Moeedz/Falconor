@@ -135,6 +135,7 @@
         "image_gLXDg4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/oversized-heavyweight-t-shirt-white-front-67aa2efedc76c.jpg",
             "image_overlay": 0,
             "image_radius": 12,
             "heading": "",
@@ -142,7 +143,7 @@
             "heading_font": "assistant_n4",
             "heading_size": 32,
             "heading_height": 100,
-            "link": "",
+            "link": "SHOP NOW",
             "link_url": "",
             "link_custom": false,
             "link_font": "assistant_n4",
@@ -151,8 +152,8 @@
             "link_mt": 16,
             "column_width": 1,
             "row_width": 2,
-            "content_align": "middle-center",
-            "content_align_mobile": "middle-center",
+            "content_align": "bottom-center",
+            "content_align_mobile": "bottom-center",
             "content_padding_horizontal": 16,
             "content_padding_vertical": 16,
             "bg_color": "#000000",
@@ -165,6 +166,7 @@
         "image_3LhFfT": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Hoodies.png",
             "image_overlay": 0,
             "image_radius": 12,
             "heading": "",
@@ -172,7 +174,7 @@
             "heading_font": "assistant_n4",
             "heading_size": 32,
             "heading_height": 100,
-            "link": "",
+            "link": "SHOP NOW",
             "link_url": "",
             "link_custom": false,
             "link_font": "assistant_n4",
@@ -181,8 +183,8 @@
             "link_mt": 16,
             "column_width": 1,
             "row_width": 2,
-            "content_align": "middle-center",
-            "content_align_mobile": "middle-center",
+            "content_align": "bottom-center",
+            "content_align_mobile": "bottom-center",
             "content_padding_horizontal": 16,
             "content_padding_vertical": 16,
             "bg_color": "#000000",
@@ -195,14 +197,15 @@
         "image_ekQJQK": {
           "type": "image",
           "settings": {
-            "image_overlay": 20,
+            "image": "shopify://shop_images/basic-unisex-windbreaker-forest-green-front-67ad093f8c2a6.jpg",
+            "image_overlay": 0,
             "image_radius": 12,
             "heading": "",
             "heading_custom": false,
             "heading_font": "assistant_n4",
             "heading_size": 32,
             "heading_height": 100,
-            "link": "",
+            "link": "SHOP NOW",
             "link_url": "",
             "link_custom": false,
             "link_font": "assistant_n4",
@@ -211,8 +214,8 @@
             "link_mt": 16,
             "column_width": 2,
             "row_width": 1,
-            "content_align": "middle-center",
-            "content_align_mobile": "middle-center",
+            "content_align": "middle-left",
+            "content_align_mobile": "bottom-center",
             "content_padding_horizontal": 16,
             "content_padding_vertical": 16,
             "bg_color": "#000000",
@@ -264,7 +267,7 @@
         "items_gap": 18,
         "items_gap_mobile": 20,
         "row_height": 300,
-        "row_height_mobile": 200,
+        "row_height_mobile": 120,
         "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
@@ -283,7 +286,7 @@
       "type": "rich-text",
       "custom_css": [
         ".section__color-wrapper {background-color: white !important; color: #3d4040;}",
-        "@media screen and (min-width: 768px) {.content-box.content-box--large.content-box--text-left.content-box--left.text-container {font-size: 30px; margin-left: -112px; } .content-box.content-box--medium.content-box--text-left.content-box--right.text-container {margin-top: -5rem; margin-right: -9rem; }}"
+        "@media screen and (min-width: 768px) {.content-box.content-box--large.content-box--text-left.content-box--left.text-container {font-size: 30px; margin-left: -112px; }}"
       ],
       "name": "Rich text",
       "settings": {
@@ -306,7 +309,7 @@
       "type": "rich-text",
       "custom_css": [
         ".section__color-wrapper {background-color: white !important; color: #3d4040;}",
-        "@media screen and (min-width: 768px) {.content-box.content-box--medium.content-box--text-left.content-box--right.text-container {margin-top: -5rem; margin-right: -9rem;}}"
+        "@media screen and (min-width: 768px) {.content-box.content-box--medium.content-box--text-left.content-box--right.text-container {margin-top: -5rem; margin-right: -9rem; }}"
       ],
       "name": "Rich text",
       "settings": {
