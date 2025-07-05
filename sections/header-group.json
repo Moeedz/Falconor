@@ -24,6 +24,7 @@
       "block_order": [
         "text_jDbqbj"
       ],
+      "disabled": true,
       "name": "SS - Scrolling Announcement Bar",
       "settings": {
         "insert_css_class_target": "",
@@ -46,7 +47,7 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "Treatment Clinic: Wednesday 10am-6pm / Sunday 10am-4pm",
+            "text": "Free shipping Worldwide for Orders over 50€",
             "learn_more_text": "",
             "title": "",
             "content": "",
@@ -58,13 +59,12 @@
       "block_order": [
         "message-1"
       ],
-      "disabled": true,
       "settings": {
         "announcement_bar_position": "non_sticky",
         "announcement_text_size": "normal",
         "autoplay": true,
         "cycle_speed": 4,
-        "background": "#37d2d7",
+        "background": "#3d4040",
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#ffffff"

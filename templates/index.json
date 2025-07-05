@@ -31,67 +31,10 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
-        },
-        "image_J3AcNH": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "",
-            "description": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_AfdHTh": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "",
-            "description": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_npex4U": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "",
-            "description": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
-        "image_XTEgU7",
-        "image_J3AcNH",
-        "image_AfdHTh",
-        "image_npex4U"
+        "image_XTEgU7"
       ],
       "name": "Slideshow",
       "settings": {
@@ -290,7 +233,7 @@
       "custom_css": [
         ".section__color-wrapper {background-color: white !important; color: #3d4040;}",
         "@media screen and (min-width: 768px) {.content-box.content-box--large.content-box--text-left.content-box--left.text-container {font-size: 30px; margin-left: -112px; }}",
-        "@media screen and (max-width: 767px) {.content-box.content-box--large.content-box--text-left.content-box--left.text-container {font-size: 23px;}}"
+        "@media screen and (max-width: 767px) {.content-box.content-box--large.content-box--text-left.content-box--left.text-container {font-size: 23px; }}"
       ],
       "name": "Rich text",
       "settings": {
