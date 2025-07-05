@@ -279,23 +279,103 @@
         "border_thickness": 0
       }
     },
-    "rich_text_GH9rpf": {
-      "type": "rich-text",
-      "name": "Rich text",
+    "ss_scrolling_images_6tGVfJ": {
+      "type": "ss-scrolling-images",
+      "blocks": {
+        "image_ArKtMN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Caps_Collection_Photo.png",
+            "url": ""
+          }
+        },
+        "image_wPfQXA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/oversized-faded-t-shirt-faded-black-front-67cf2e841f6cd.webp",
+            "url": ""
+          }
+        },
+        "image_4NCAhB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fisherman-beanie-petrol-blue-left-front-67ba8594a38d9.jpg",
+            "url": ""
+          }
+        },
+        "image_4Hfyhe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/unisex-heavy-blend-zip-hoodie-white-front-67ba7c2e254ca.jpg",
+            "url": ""
+          }
+        },
+        "image_NpHHxU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vintage-cap-black-right-front-67be37d3c9008.jpg",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ArKtMN",
+        "image_wPfQXA",
+        "image_4NCAhB",
+        "image_4Hfyhe",
+        "image_NpHHxU"
+      ],
+      "name": "SS - Scrolling images",
       "settings": {
-        "subheading": "",
-        "title": "OUR COLLECTIONS",
-        "content": "",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "boxed",
-        "text_width": "medium",
-        "text_position": "left",
-        "text_alignment": "left",
-        "background": "#3d4040",
+        "heading": "<h2>Heading</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "slider_speed": 20,
+        "slider_gap": 10,
+        "slider_gap_mobile": 10,
+        "slider_mt": 50,
+        "slider_direction": "left",
+        "pause_hover": false,
+        "image_width_desktop": 300,
+        "image_width_mobile": 120,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 10,
+        "use_content": true,
+        "content_position": "center",
+        "content_max_width": 340,
+        "content_max_width_mobile": 340,
+        "content_padding_vertical": 30,
+        "content_padding_horizontal": 30,
+        "content_distance": 60,
+        "content_radius": 10,
+        "content_border_thickness": 0,
+        "use_shadow": true,
+        "text": "<p>+29.000 people love our product</p>",
+        "text_custom": false,
+        "text_font": "assistant_n4",
+        "text_size": 24,
+        "text_height": 130,
+        "heading_color": "#000000",
+        "content_bg": "#FFFFFF",
+        "content_border_color": "#000000",
         "text_color": "#000000",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
       }
     }
   },
@@ -303,6 +383,6 @@
     "slideshow_G9P9tz",
     "ss_scrolling_announcement_bar_EP7XPB",
     "ss_media_grid_rmzBib",
-    "rich_text_GH9rpf"
+    "ss_scrolling_images_6tGVfJ"
   ]
 }
