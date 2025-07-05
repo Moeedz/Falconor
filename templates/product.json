@@ -61,7 +61,9 @@
         "description_FYHqyy",
         "5b5f29fd-4df5-40a3-8032-5a4bd185072b"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.container, .shopify-policy__container.shopify-policy__container {padding-right: 0px !important; padding-left: 0px !important;}}"
+      ],
       "settings": {
         "show_vendor": false,
         "show_sku": false,
