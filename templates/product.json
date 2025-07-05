@@ -62,7 +62,12 @@
         "5b5f29fd-4df5-40a3-8032-5a4bd185072b"
       ],
       "custom_css": [
-        "@media screen and (max-width: 767px) {h1.product-meta__title.heading.h3 {font-size: 16px; } span.price.price--large {font-size: 17px !important; } .table-wrapper {margin-left: 8px; } .table-responsive.dynamic {border: 1px solid; } .rte > :first-child, .text-container > :first-child {margin-left: 12px !important; margin-right: 12px !important; } .product-form__description {border: 1px solid;}}"
+        "h1.product-meta__title.heading.h3 {font-size: 16px; }",
+        " span.price.price--large {font-size: 17px !important; }",
+        " .table-wrapper {margin-left: 8px; }",
+        " .table-responsive.dynamic {border: 1px solid; }",
+        " .rte > :first-child, .text-container > :first-child {margin-left: 12px !important; margin-right: 12px !important; }",
+        " .product-form__description {border: 1px solid; }"
       ],
       "settings": {
         "show_vendor": false,
