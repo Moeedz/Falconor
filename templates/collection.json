@@ -26,7 +26,8 @@
     "main": {
       "type": "main-collection",
       "custom_css": [
-        "@media screen and (min-width: 768px) {.container, .shopify-policy__container.shopify-policy__container {padding-right: 0px !important; padding-left: 0px !important; max-width: 97% !important; }}"
+        "@media screen and (min-width: 768px) {.container, .shopify-policy__container.shopify-policy__container {padding-right: 0px !important; padding-left: 0px !important; max-width: 97% !important; }}",
+        "@media screen and (max-width: 767px) {a.product-item-meta__title {font-size: 11px; }}"
       ],
       "settings": {
         "show_sort_by": true,

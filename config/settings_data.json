@@ -51,7 +51,7 @@
     "show_product_rating": false,
     "show_discount": true,
     "discount_mode": "saving",
-    "product_color_display": "count",
+    "product_color_display": "hide",
     "product_image_size": "natural",
     "cart_type": "drawer",
     "cart_icon": "tote_bag",
