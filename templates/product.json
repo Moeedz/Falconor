@@ -21,7 +21,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "hide_sold_out_variants": true,
+            "hide_sold_out_variants": false,
             "selector_mode": "dropdown",
             "color_mode": "variant_image",
             "size_chart_page": ""
