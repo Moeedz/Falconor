@@ -44,6 +44,7 @@
         },
         "description_FYHqyy": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         },
         "5b5f29fd-4df5-40a3-8032-5a4bd185072b": {
