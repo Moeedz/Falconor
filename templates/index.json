@@ -430,7 +430,7 @@
             "icon": "picto-box",
             "custom_icon_width": 50,
             "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            "content": "<p>Free shipping Worldwide for Orders <strong>over 50€</strong></p>"
           }
         },
         "item_nNERhG": {
@@ -457,7 +457,7 @@
             "icon": "picto-email",
             "custom_icon_width": 50,
             "title": "Contact us",
-            "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com</p>"
+            "content": "<p>Just send us an e-mail at <strong>Falconor.cservice@gmail.com</strong></p>"
           }
         }
       },
