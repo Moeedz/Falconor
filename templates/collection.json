@@ -14,9 +14,9 @@
       "settings": {
         "show_collection_image": false,
         "show_collection_title": true,
-        "show_collection_description": true,
-        "section_height": "small",
-        "text_width": "medium",
+        "show_collection_description": false,
+        "section_height": "large",
+        "text_width": "large",
         "image_text_color": "#ffffff",
         "image_overlay_color": "#000000",
         "image_overlay_opacity": 0,
@@ -27,7 +27,7 @@
       "type": "main-collection",
       "custom_css": [
         "@media screen and (min-width: 768px) {.container, .shopify-policy__container.shopify-policy__container {padding-right: 0px !important; padding-left: 0px !important; max-width: 97% !important; }}",
-        "@media screen and (max-width: 767px) {a.product-item-meta__title {font-size: 11px; } h1.heading.h1 {font-size: 25px !important; }}"
+        "@media screen and (max-width: 767px) {a.product-item-meta__title {font-size: 11px; } .rte>:last-child, .text-container>:last-child {font-size: 25px !important;}}"
       ],
       "settings": {
         "show_sort_by": true,
