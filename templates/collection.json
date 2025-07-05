@@ -25,9 +25,7 @@
     },
     "main": {
       "type": "main-collection",
-      "custom_css": [
-        "@media screen and (min-width: 768px) {.container, .shopify-policy__container.shopify-policy__container {padding-right: 17px !important; padding-left: 17px !important; max-width: 100% !important;}}"
-      ],
+      "custom_css": [],
       "settings": {
         "show_sort_by": true,
         "products_per_page": 24,
