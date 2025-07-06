@@ -45,12 +45,6 @@
         "description_FYHqyy": {
           "type": "description",
           "settings": {}
-        },
-        "5b5f29fd-4df5-40a3-8032-5a4bd185072b": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0710/8096/8460/files/KostenloserVersand_Umtausch-3_2048x2048.png?v=1701306086\" alt=\"\" data-mce-fragment=\"1\" data-mce-src=\"https://cdn.shopify.com/s/files/1/0710/8096/8460/files/KostenloserVersand_Umtausch-3_2048x2048.png?v=1701306086\">"
-          }
         }
       },
       "block_order": [
@@ -58,8 +52,7 @@
         "variant_picker",
         "quantity_selector_8BhAeL",
         "buy_buttons",
-        "description_FYHqyy",
-        "5b5f29fd-4df5-40a3-8032-5a4bd185072b"
+        "description_FYHqyy"
       ],
       "custom_css": [
         "@media screen and (max-width: 767px) {h1.product-meta__title.heading.h3 {font-size: 16px; } span.price.price--large {font-size: 17px !important; }}",
@@ -67,7 +60,7 @@
         ".table-responsive.dynamic {border: 1px solid;}",
         ".rte > :first-child,.text-container > :first-child {margin-left: 12px !important; margin-right: 12px !important;}",
         ".product-form__description {border: 1px solid;}",
-        ".block-swatch__radio:checked+.block-swatch__item {background-color: white !important; color: black !important;}"
+        ".block-swatch__radio:checked + .block-swatch__item {background-color: white !important; color: black !important;}"
       ],
       "settings": {
         "show_vendor": false,
@@ -173,6 +166,102 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "ss_product_tabs_4_A9NikM": {
+      "type": "ss-product-tabs-4",
+      "blocks": {
+        "text_AhUU3x": {
+          "type": "text",
+          "settings": {
+            "btn_text": "Description",
+            "text": "<p>Text</p>",
+            "use_description": true
+          }
+        },
+        "text_hWMVpJ": {
+          "type": "text",
+          "settings": {
+            "btn_text": "Materials",
+            "text": "<p>Text</p>",
+            "use_description": false
+          }
+        },
+        "text_gff3UE": {
+          "type": "text",
+          "settings": {
+            "btn_text": "Dimensions",
+            "text": "<p>Text</p>",
+            "use_description": false
+          }
+        },
+        "text_D9tH7P": {
+          "type": "text",
+          "settings": {
+            "btn_text": "Care Instructions",
+            "text": "<p>Text</p>",
+            "use_description": false
+          }
+        },
+        "text_Nrh4d3": {
+          "type": "text",
+          "settings": {
+            "btn_text": "Shipping & Returns",
+            "text": "<p>Text</p>",
+            "use_description": false
+          }
+        }
+      },
+      "block_order": [
+        "text_AhUU3x",
+        "text_hWMVpJ",
+        "text_gff3UE",
+        "text_D9tH7P",
+        "text_Nrh4d3"
+      ],
+      "name": "SS - Product tabs #4",
+      "settings": {
+        "tabs_position": "below_buy",
+        "tabs_gap": 0,
+        "tabs_gap_mobile": 0,
+        "use_animation": false,
+        "tab_text_custom": false,
+        "tab_text_font": "josefin_sans_n4",
+        "tab_text_size": 16,
+        "tab_text_size_mobile": 15,
+        "tab_text_height": 130,
+        "tab_padding_vertical": 12,
+        "tab_padding_vertical_mobile": 12,
+        "tab_padding_horizontal": 16,
+        "tab_padding_horizontal_mobile": 16,
+        "content_text_custom": false,
+        "content_text_font": "josefin_sans_n4",
+        "content_text_size": 16,
+        "content_text_size_mobile": 15,
+        "content_text_height": 150,
+        "content_padding_vertical": 24,
+        "content_padding_vertical_mobile": 24,
+        "content_padding_horizontal": 0,
+        "content_padding_horizontal_mobile": 0,
+        "arrow_size": 20,
+        "line_thickness": 1,
+        "tab_text_color": "#717171",
+        "tab_text_color_hover": "#4D4D4D",
+        "content_text_color": "#4D4D4D",
+        "arrow_color": "#4D4D4D",
+        "arrow_hover_color": "#4D4D4D",
+        "line_color": "#E5E5E5",
+        "line_active_color": "#000000",
+        "background_color": "",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0
+      }
     }
   },
   "order": [
@@ -180,6 +269,7 @@
     "17517295764dbe97d8",
     "product-content",
     "3acbed45-0150-4bc5-aacb-1cb0c5292ace",
-    "product_recommendations_QMtLrA"
+    "product_recommendations_QMtLrA",
+    "ss_product_tabs_4_A9NikM"
   ]
 }
