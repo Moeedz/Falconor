@@ -186,7 +186,7 @@
       ],
       "name": "SS - Product tabs #5",
       "settings": {
-        "tabs_position": "above_description",
+        "tabs_position": "below_price",
         "tab_padding_horizontal": 18,
         "tab_padding_horizontal_mobile": 16,
         "tab_padding_vertical": 18,
