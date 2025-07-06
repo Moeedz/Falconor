@@ -123,6 +123,7 @@
         "description",
         "dc5b6ad0-3ba5-42ba-a301-2d6b84702967"
       ],
+      "disabled": true,
       "settings": {}
     },
     "3acbed45-0150-4bc5-aacb-1cb0c5292ace": {
@@ -213,7 +214,7 @@
         "text_size_mobile": 15,
         "text_height": 150,
         "text_padding_top": 20,
-        "tab_bg_color": "#FFFFFF",
+        "tab_bg_color": "#ffffff",
         "tab_border_color": "#9e9e9e",
         "title_icon_color": "#000000",
         "title_color": "#000000",
