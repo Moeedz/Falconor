@@ -175,6 +175,7 @@
           "settings": {
             "title": "Description",
             "icon": "airplane",
+            "custom_icon": "shopify://shop_images/info.png",
             "text": "",
             "use_description": true
           }
