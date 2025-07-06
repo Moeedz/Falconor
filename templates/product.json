@@ -170,52 +170,22 @@
     "ss_product_tabs_5_8hAUrz": {
       "type": "ss-product-tabs-5",
       "blocks": {
-        "tab_bDcdqF": {
-          "type": "tab",
-          "settings": {
-            "title": "Title",
-            "icon": "atc",
-            "text": "<p>Text</p>",
-            "use_description": true
-          }
-        },
-        "tab_pBn8qL": {
-          "type": "tab",
-          "settings": {
-            "title": "Title",
-            "icon": "atc",
-            "text": "<p>Text</p>",
-            "use_description": false
-          }
-        },
-        "tab_tfPG4x": {
-          "type": "tab",
-          "settings": {
-            "title": "Title",
-            "icon": "atc",
-            "text": "<p>Text</p>",
-            "use_description": false
-          }
-        },
         "tab_FJ8tif": {
           "type": "tab",
           "settings": {
-            "title": "Title",
+            "title": "Description",
             "icon": "atc",
-            "text": "<p>Text</p>",
-            "use_description": false
+            "text": "",
+            "use_description": true
           }
         }
       },
       "block_order": [
-        "tab_bDcdqF",
-        "tab_pBn8qL",
-        "tab_tfPG4x",
         "tab_FJ8tif"
       ],
       "name": "SS - Product tabs #5",
       "settings": {
-        "tabs_position": "below_buy",
+        "tabs_position": "above_buy",
         "tab_padding_horizontal": 18,
         "tab_padding_horizontal_mobile": 16,
         "tab_padding_vertical": 18,
