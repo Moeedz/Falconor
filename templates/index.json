@@ -142,7 +142,7 @@
         "image_ekQJQK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/basic-unisex-windbreaker-forest-green-front-67ad093f8c2a6.jpg",
+            "image": "shopify://shop_images/CAPS.jpg",
             "image_overlay": 0,
             "image_radius": 12,
             "heading": "",
@@ -150,7 +150,7 @@
             "heading_font": "assistant_n4",
             "heading_size": 32,
             "heading_height": 100,
-            "link": "JACKETS",
+            "link": "CAPS",
             "link_url": "",
             "link_custom": true,
             "link_font": "fjalla_one_n4",
