@@ -167,100 +167,97 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "ss_product_tabs_4_A9NikM": {
-      "type": "ss-product-tabs-4",
+    "ss_product_tabs_5_8hAUrz": {
+      "type": "ss-product-tabs-5",
       "blocks": {
-        "text_AhUU3x": {
-          "type": "text",
+        "tab_bDcdqF": {
+          "type": "tab",
           "settings": {
-            "btn_text": "Description",
+            "title": "Title",
+            "icon": "atc",
             "text": "<p>Text</p>",
             "use_description": true
           }
         },
-        "text_hWMVpJ": {
-          "type": "text",
+        "tab_pBn8qL": {
+          "type": "tab",
           "settings": {
-            "btn_text": "Materials",
+            "title": "Title",
+            "icon": "atc",
             "text": "<p>Text</p>",
             "use_description": false
           }
         },
-        "text_gff3UE": {
-          "type": "text",
+        "tab_tfPG4x": {
+          "type": "tab",
           "settings": {
-            "btn_text": "Dimensions",
+            "title": "Title",
+            "icon": "atc",
             "text": "<p>Text</p>",
             "use_description": false
           }
         },
-        "text_D9tH7P": {
-          "type": "text",
+        "tab_FJ8tif": {
+          "type": "tab",
           "settings": {
-            "btn_text": "Care Instructions",
-            "text": "<p>Text</p>",
-            "use_description": false
-          }
-        },
-        "text_Nrh4d3": {
-          "type": "text",
-          "settings": {
-            "btn_text": "Shipping & Returns",
+            "title": "Title",
+            "icon": "atc",
             "text": "<p>Text</p>",
             "use_description": false
           }
         }
       },
       "block_order": [
-        "text_AhUU3x",
-        "text_hWMVpJ",
-        "text_gff3UE",
-        "text_D9tH7P",
-        "text_Nrh4d3"
+        "tab_bDcdqF",
+        "tab_pBn8qL",
+        "tab_tfPG4x",
+        "tab_FJ8tif"
       ],
-      "name": "SS - Product tabs #4",
+      "name": "SS - Product tabs #5",
       "settings": {
         "tabs_position": "below_buy",
-        "tabs_gap": 0,
-        "tabs_gap_mobile": 0,
-        "use_animation": false,
-        "tab_text_custom": false,
-        "tab_text_font": "josefin_sans_n4",
-        "tab_text_size": 16,
-        "tab_text_size_mobile": 15,
-        "tab_text_height": 130,
-        "tab_padding_vertical": 12,
-        "tab_padding_vertical_mobile": 12,
-        "tab_padding_horizontal": 16,
+        "tab_padding_horizontal": 18,
         "tab_padding_horizontal_mobile": 16,
-        "content_text_custom": false,
-        "content_text_font": "josefin_sans_n4",
-        "content_text_size": 16,
-        "content_text_size_mobile": 15,
-        "content_text_height": 150,
-        "content_padding_vertical": 24,
-        "content_padding_vertical_mobile": 24,
-        "content_padding_horizontal": 0,
-        "content_padding_horizontal_mobile": 0,
-        "arrow_size": 20,
-        "line_thickness": 1,
-        "tab_text_color": "#717171",
-        "tab_text_color_hover": "#4D4D4D",
-        "content_text_color": "#4D4D4D",
-        "arrow_color": "#4D4D4D",
-        "arrow_hover_color": "#4D4D4D",
-        "line_color": "#E5E5E5",
-        "line_active_color": "#000000",
+        "tab_padding_vertical": 18,
+        "tab_padding_vertical_mobile": 18,
+        "tab_radius": 16,
+        "tab_border_thickness": 1,
+        "tab_mt": 10,
+        "tab_mt_mobile": 10,
+        "title_gap": 12,
+        "title_gap_mobile": 12,
+        "title_icon_size": 22,
+        "title_icon_size_mobile": 20,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 15,
+        "title_size_mobile": 15,
+        "title_height": 130,
+        "arrow_size": 24,
+        "arrow_size_mobile": 20,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 15,
+        "text_size_mobile": 15,
+        "text_height": 150,
+        "text_padding_top": 20,
+        "tab_bg_color": "#FFFFFF",
+        "tab_border_color": "#9e9e9e",
+        "title_icon_color": "#000000",
+        "title_color": "#000000",
+        "arrow_color": "#000000",
+        "text_color": "#000000",
         "background_color": "",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 12,
+        "padding_bottom": 12,
         "padding_horizontal": 0,
         "padding_horizontal_mobile": 0,
-        "border_thickness": 0
+        "border_thickness": 0,
+        "lazy": true
       }
     }
   },
@@ -270,6 +267,6 @@
     "product-content",
     "3acbed45-0150-4bc5-aacb-1cb0c5292ace",
     "product_recommendations_QMtLrA",
-    "ss_product_tabs_4_A9NikM"
+    "ss_product_tabs_5_8hAUrz"
   ]
 }
