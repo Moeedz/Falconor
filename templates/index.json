@@ -407,6 +407,9 @@
         "item_4DFpU3",
         "item_QXfRyP"
       ],
+      "custom_css": [
+        "a.button.button--primary {border-radius: 50px;}"
+      ],
       "name": "Image with text",
       "settings": {
         "reveal_on_scroll": true,
