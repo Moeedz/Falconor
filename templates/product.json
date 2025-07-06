@@ -160,6 +160,9 @@
     },
     "product_recommendations_QMtLrA": {
       "type": "product-recommendations",
+      "custom_css": [
+        ".section__color-wrapper {margin-bottom: 2rem;}"
+      ],
       "name": "Related products",
       "settings": {
         "subheading": "",
