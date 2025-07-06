@@ -44,7 +44,6 @@
         },
         "description_FYHqyy": {
           "type": "description",
-          "disabled": true,
           "settings": {}
         }
       },
@@ -187,7 +186,7 @@
       ],
       "name": "SS - Product tabs #5",
       "settings": {
-        "tabs_position": "below_title",
+        "tabs_position": "above_description",
         "tab_padding_horizontal": 18,
         "tab_padding_horizontal_mobile": 16,
         "tab_padding_vertical": 18,
