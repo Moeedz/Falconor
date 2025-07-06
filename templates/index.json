@@ -142,7 +142,7 @@
         "image_ekQJQK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/CAPS.jpg",
+            "image": "shopify://shop_images/caps_3.jpg",
             "image_overlay": 0,
             "image_radius": 12,
             "heading": "",
@@ -151,7 +151,7 @@
             "heading_size": 32,
             "heading_height": 100,
             "link": "CAPS",
-            "link_url": "",
+            "link_url": "shopify://collections/women",
             "link_custom": true,
             "link_font": "fjalla_one_n4",
             "link_size": 22,
@@ -173,16 +173,16 @@
         "image_e6jE9A": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/vintage-cap-black-left-front-67bcf7ba6068c.jpg",
-            "image_overlay": 20,
+            "image": "shopify://shop_images/CPAS.jpg",
+            "image_overlay": 10,
             "image_radius": 12,
             "heading": "",
             "heading_custom": false,
             "heading_font": "assistant_n4",
             "heading_size": 32,
             "heading_height": 100,
-            "link": "SHIRTS",
-            "link_url": "",
+            "link": "BEANIES",
+            "link_url": "shopify://collections/caps",
             "link_custom": true,
             "link_font": "fjalla_one_n4",
             "link_size": 22,
