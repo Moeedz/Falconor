@@ -70,6 +70,9 @@
     "sections": {
       "mini-cart": {
         "type": "mini-cart",
+        "custom_css": [
+          ".mini-cart__recommendations-inner {background: #3D4040 !important;}"
+        ],
         "settings": {
           "show_order_note": false,
           "show_checkout_button": true,
