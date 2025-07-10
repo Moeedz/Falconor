@@ -441,7 +441,7 @@
         "item_nNERhG": {
           "type": "item",
           "settings": {
-            "icon": "picto-phone",
+            "icon": "picto-mobile",
             "custom_icon": "shopify://shop_images/Support.jpg",
             "custom_icon_width": 105,
             "title": "Customer service",
