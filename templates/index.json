@@ -445,7 +445,7 @@
             "custom_icon": "shopify://shop_images/Support.jpg",
             "custom_icon_width": 105,
             "title": "Customer service",
-            "content": "<p>We are available from Monday to Friday to answer your questions. <br/>Faclonor.cservice@gmail.com</p>"
+            "content": "<p>We are available from Monday to Friday to answer your questions. <br/></p>"
           }
         },
         "item_PMXexi": {
@@ -494,7 +494,7 @@
             "icon": "picto-email",
             "custom_icon_width": 50,
             "title": "Contact us",
-            "content": "<p>Just send us an e-mail at <strong>falconor.cservice@gmail.com</strong></p>"
+            "content": "<p>Send us an E-Mail at F<strong>alconor.cservice@gmail.com</strong></p>"
           }
         }
       },
