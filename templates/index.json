@@ -54,16 +54,16 @@
             "text": "NEW COLLECTION"
           }
         },
-        "text_bnY4qM": {
+        "text_KPtUiz": {
           "type": "text",
           "settings": {
-            "text": "LIVE NOW"
+            "text": "Live Now"
           }
         }
       },
       "block_order": [
         "text_nDEcKE",
-        "text_bnY4qM"
+        "text_KPtUiz"
       ],
       "name": "SS - Scrolling Announcement Bar",
       "settings": {
