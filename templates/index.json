@@ -288,13 +288,6 @@
     "ss_scrolling_images_6tGVfJ": {
       "type": "ss-scrolling-images",
       "blocks": {
-        "image_ArKtMN": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Caps_Collection_Photo.png",
-            "url": ""
-          }
-        },
         "image_wPfQXA": {
           "type": "image",
           "settings": {
@@ -325,7 +318,6 @@
         }
       },
       "block_order": [
-        "image_ArKtMN",
         "image_wPfQXA",
         "image_4NCAhB",
         "image_4Hfyhe",
