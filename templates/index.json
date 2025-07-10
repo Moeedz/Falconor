@@ -50,12 +50,14 @@
       "blocks": {
         "text_nDEcKE": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "NEW COLLECTION"
           }
         },
         "text_KPtUiz": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Live Now"
           }
