@@ -445,7 +445,7 @@
             "custom_icon": "shopify://shop_images/Support.jpg",
             "custom_icon_width": 105,
             "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+            "content": "<p>We are available from Monday to Friday to answer your questions. <br/>Faclonor.cservice@gmail.com</p>"
           }
         },
         "item_PMXexi": {
@@ -484,6 +484,40 @@
         "background": "#ffffff",
         "text_color": "#3d4040"
       }
+    },
+    "text_with_icons_haWBKT": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_NHD9LD": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify://shop_images/Contact_us_icon_c3b25aca-c75b-4553-b87d-4af27f6f0461.png",
+            "custom_icon_width": 105,
+            "title": "Contact Us",
+            "content": "<p>Free shipping Worldwide for Orders <strong>over 50€</strong></p>"
+          }
+        },
+        "item_8nqq7H": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon_width": 50,
+            "title": "Contact us",
+            "content": "<p>Just send us an e-mail at <strong>falconor.cservice@gmail.com</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_NHD9LD",
+        "item_8nqq7H"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "background": "#ffffff",
+        "text_color": "#3d4040"
+      }
     }
   },
   "order": [
@@ -494,6 +528,7 @@
     "rich_text_jAhQaY",
     "ss_scrolling_images_6tGVfJ",
     "image_with_text_nDBEnD",
-    "text_with_icons_ie6Rqd"
+    "text_with_icons_ie6Rqd",
+    "text_with_icons_haWBKT"
   ]
 }
