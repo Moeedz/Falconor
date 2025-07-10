@@ -51,12 +51,19 @@
         "text_nDEcKE": {
           "type": "text",
           "settings": {
-            "text": "REFLECT FASHIONS"
+            "text": "NEW COLLECTION"
+          }
+        },
+        "text_bnY4qM": {
+          "type": "text",
+          "settings": {
+            "text": "LIVE NOW"
           }
         }
       },
       "block_order": [
-        "text_nDEcKE"
+        "text_nDEcKE",
+        "text_bnY4qM"
       ],
       "name": "SS - Scrolling Announcement Bar",
       "settings": {
