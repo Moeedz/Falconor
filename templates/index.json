@@ -460,12 +460,12 @@
         },
         "item_cDY3fF": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "icon": "picto-email",
+            "icon": "picto-mobile",
+            "custom_icon": "shopify://shop_images/Refund_Icon_5bc4b422-650d-4a74-a985-cbd31c537439.png",
             "custom_icon_width": 50,
-            "title": "Contact us",
-            "content": "<p>Just send us an e-mail at <strong>falconor.cservice@gmail.com</strong></p>"
+            "title": "Refund",
+            "content": "<p>Your satisfaction matters. Refunds within 14 days</p>"
           }
         }
       },
