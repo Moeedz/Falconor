@@ -463,7 +463,7 @@
           "settings": {
             "icon": "picto-mobile",
             "custom_icon": "shopify://shop_images/Refund_Icon_5bc4b422-650d-4a74-a985-cbd31c537439.png",
-            "custom_icon_width": 50,
+            "custom_icon_width": 105,
             "title": "Refund",
             "content": "<p>Your satisfaction matters. Refunds within 14 days</p>"
           }
@@ -488,19 +488,8 @@
     "text_with_icons_haWBKT": {
       "type": "text-with-icons",
       "blocks": {
-        "item_NHD9LD": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-box",
-            "custom_icon": "shopify://shop_images/Refund_Icon_5bc4b422-650d-4a74-a985-cbd31c537439.png",
-            "custom_icon_width": 105,
-            "title": "Refund",
-            "content": "<p>Your satisfaction matters. Refunds within 14 days<br/><br/></p>"
-          }
-        },
         "item_8nqq7H": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "icon": "picto-email",
             "custom_icon_width": 50,
@@ -510,7 +499,6 @@
         }
       },
       "block_order": [
-        "item_NHD9LD",
         "item_8nqq7H"
       ],
       "name": "Text with icons",
