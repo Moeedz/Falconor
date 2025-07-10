@@ -492,10 +492,10 @@
           "type": "item",
           "settings": {
             "icon": "picto-box",
-            "custom_icon": "shopify://shop_images/Contact_us_icon_c3b25aca-c75b-4553-b87d-4af27f6f0461.png",
+            "custom_icon": "shopify://shop_images/Refund_Icon_5bc4b422-650d-4a74-a985-cbd31c537439.png",
             "custom_icon_width": 105,
-            "title": "Contact Us",
-            "content": "<p>Free shipping Worldwide for Orders <strong>over 50€</strong></p>"
+            "title": "Refund",
+            "content": "<p>Your satisfaction matters. Refunds within 14 days<br/><br/></p>"
           }
         },
         "item_8nqq7H": {
