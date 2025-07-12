@@ -239,12 +239,6 @@
     },
     "rich_text_DR4hTm": {
       "type": "rich-text",
-      "custom_css": [
-        ".section__color-wrapper {background-color: white !important; color: #3d4040;}",
-        "@media screen and (min-width: 768px) {.content-box.content-box--large.content-box--text-left.content-box--left.text-container {font-size: 30px; margin-left: -112px; }}",
-        "@media screen and (max-width: 767px) {.content-box.content-box--large.content-box--text-left.content-box--left.text-container {font-size: 21px; }}",
-        ".container {padding-top: 25px;}"
-      ],
       "name": "Rich text",
       "settings": {
         "subheading": "",
@@ -264,12 +258,6 @@
     },
     "rich_text_jAhQaY": {
       "type": "rich-text",
-      "custom_css": [
-        ".section__color-wrapper {background-color: white !important; color: #3d4040;}",
-        "@media screen and (min-width: 768px) {.content-box.content-box--medium.content-box--text-left.content-box--right.text-container {margin-top: -5rem; margin-right: -9rem; }}",
-        "@media screen and (max-width: 767px) {.content-box.content-box--medium.content-box--text-left.content-box--right.text-container {font-size: 12px; }}",
-        ".container {padding-top: 25px;}"
-      ],
       "name": "Rich text",
       "settings": {
         "subheading": "",
@@ -349,7 +337,7 @@
         "heading_size": 40,
         "heading_height": 130,
         "heading_align": "center",
-        "slider_speed": 25,
+        "slider_speed": 19,
         "slider_gap": 10,
         "slider_gap_mobile": 10,
         "slider_mt": 30,
