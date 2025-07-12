@@ -290,13 +290,6 @@
     "ss_scrolling_images_6tGVfJ": {
       "type": "ss-scrolling-images",
       "blocks": {
-        "image_wPfQXA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/oversized-faded-t-shirt-faded-black-front-67cf2e841f6cd.webp",
-            "url": ""
-          }
-        },
         "image_PJhY93": {
           "type": "image",
           "settings": {
@@ -341,7 +334,6 @@
         }
       },
       "block_order": [
-        "image_wPfQXA",
         "image_PJhY93",
         "image_4NCAhB",
         "image_4Hfyhe",
