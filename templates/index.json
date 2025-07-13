@@ -47,26 +47,6 @@
     },
     "ss_scrolling_announcement_bar_EP7XPB": {
       "type": "ss-scrolling-announcement-bar",
-      "blocks": {
-        "text_nDEcKE": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "NEW COLLECTION"
-          }
-        },
-        "text_KPtUiz": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Live Now"
-          }
-        }
-      },
-      "block_order": [
-        "text_nDEcKE",
-        "text_KPtUiz"
-      ],
       "name": "SS - Scrolling Announcement Bar",
       "settings": {
         "insert_css_class_target": "",
@@ -237,45 +217,6 @@
         "border_thickness": 0
       }
     },
-    "featured_product_wfJhJm": {
-      "type": "featured-product",
-      "blocks": {
-        "buy_buttons_xAN3X8": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "rgba(0,0,0,0)",
-            "atc_button_text_color": "rgba(0,0,0,0)",
-            "buy_now_button_background": "rgba(0,0,0,0)",
-            "buy_now_button_text_color": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "buy_buttons_xAN3X8"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "product": "falconor-stamina-structured-twill-cap",
-        "subheading": "",
-        "title": "Highlights",
-        "show_vendor": false,
-        "show_sku": false,
-        "show_taxes_included": false,
-        "show_product_rating": false,
-        "show_share_buttons": true,
-        "help_page": "",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "show_thumbnails_on_mobile": false,
-        "desktop_thumbnails_position": "left",
-        "transition_effect": "slide",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "rich_text_DR4hTm": {
       "type": "rich-text",
       "name": "Rich text",
@@ -293,6 +234,68 @@
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ss_featured_collection_tabs_wjpF9c": {
+      "type": "ss-featured-collection-tabs",
+      "blocks": {
+        "collection_PYcwa8": {
+          "type": "collection",
+          "settings": {
+            "title": "Highlights",
+            "collection": "highlights-1",
+            "product_limit": 6,
+            "product_row_count": 4,
+            "mobile_product_row_count": 1,
+            "enable_swiper_on_mobile": false,
+            "product_image_orientation": "square",
+            "button_mt": 0,
+            "button_text": "",
+            "button_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_PYcwa8"
+      ],
+      "name": "SS - Featured Collections (tabs)",
+      "settings": {
+        "tabs_color": "#7e7e7e",
+        "tabs_color_active": "#000000",
+        "tabs_size": 18,
+        "tabs_size_mobile": 14,
+        "tabs_padding_bottom": 16,
+        "tabs_align": "center",
+        "tabs_spacing": 48,
+        "tabs_spacing_mobile": 36,
+        "tabs_margin_bottom": 40,
+        "secondary_image_hover": true,
+        "image_roundness": 0,
+        "image_gap": 20,
+        "product_title_size": 14,
+        "product_title_line_height": 1.3,
+        "product_title_color": "#212121",
+        "product_price_size": 14,
+        "discounted_price_color": "#ff3451",
+        "normal_price_color": "#212121",
+        "button_color": "#FFFFFF",
+        "button_background_color": "#000000",
+        "button_color_hover": "#FFFFFF",
+        "button_background_color_hover": "#000000",
+        "button_border_color": "#FFFFFF",
+        "button_height": 44,
+        "button_width": 200,
+        "button_font_size": 16,
+        "button_border_radius": 2,
+        "button_border_thickness": 0,
+        "background-color": "#FFFFFF",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 56,
+        "padding_bottom": 36,
+        "padding_sides": 5,
+        "padding_sides_mobile": 1.5,
+        "section-width": 120
       }
     },
     "rich_text_jAhQaY": {
@@ -557,8 +560,8 @@
     "slideshow_G9P9tz",
     "ss_scrolling_announcement_bar_EP7XPB",
     "ss_media_grid_rmzBib",
-    "featured_product_wfJhJm",
     "rich_text_DR4hTm",
+    "ss_featured_collection_tabs_wjpF9c",
     "rich_text_jAhQaY",
     "ss_scrolling_images_6tGVfJ",
     "image_with_text_nDBEnD",

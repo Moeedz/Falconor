@@ -43,7 +43,7 @@
     "show_image_zoom": false,
     "stagger_products_apparition": false,
     "stagger_blog_posts_apparition": false,
-    "reveal_product_media": false,
+    "reveal_product_media": true,
     "round_color_swatches": false,
     "show_vendor": false,
     "show_secondary_image": true,
