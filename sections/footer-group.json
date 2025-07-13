@@ -53,7 +53,7 @@
       ],
       "settings": {
         "show_payment_icons": true,
-        "enable_follow_on_shop": false,
+        "enable_follow_on_shop": true,
         "show_country_selector": true,
         "show_locale_selector": true
       }
