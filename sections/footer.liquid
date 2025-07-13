@@ -102,7 +102,7 @@
           {%- endcapture -%}
 
           {%- if block_content != blank -%}
-           <div class="footer__item footer__item--{{ block.type }} {{ powered_by_link | replace: '_', '-' }}{% if forloop.first %} is-first{% endif %}" {{ block.shopify_attributes }}>
+           <div class="footer__item footer__item--{{ block.type }} {% if forloop.first %} is-first{% endif %}" {{ block.shopify_attributes }}>
               {{- block_content -}}
             </div>
           {%- endif -%}
