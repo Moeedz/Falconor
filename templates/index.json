@@ -45,45 +45,6 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "featured_product_wfJhJm": {
-      "type": "featured-product",
-      "blocks": {
-        "buy_buttons_xAN3X8": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "rgba(0,0,0,0)",
-            "atc_button_text_color": "rgba(0,0,0,0)",
-            "buy_now_button_background": "rgba(0,0,0,0)",
-            "buy_now_button_text_color": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "buy_buttons_xAN3X8"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "product": "falconor-stamina-structured-twill-cap",
-        "subheading": "",
-        "title": "Highlights",
-        "show_vendor": false,
-        "show_sku": false,
-        "show_taxes_included": false,
-        "show_product_rating": false,
-        "show_share_buttons": true,
-        "help_page": "",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "show_thumbnails_on_mobile": false,
-        "desktop_thumbnails_position": "bottom",
-        "transition_effect": "slide",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "ss_scrolling_announcement_bar_EP7XPB": {
       "type": "ss-scrolling-announcement-bar",
       "blocks": {
@@ -274,6 +235,45 @@
         "full_width": false,
         "content_width": 120,
         "border_thickness": 0
+      }
+    },
+    "featured_product_wfJhJm": {
+      "type": "featured-product",
+      "blocks": {
+        "buy_buttons_xAN3X8": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "buy_buttons_xAN3X8"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "product": "falconor-stamina-structured-twill-cap",
+        "subheading": "",
+        "title": "Highlights",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "rich_text_DR4hTm": {
@@ -555,9 +555,9 @@
   },
   "order": [
     "slideshow_G9P9tz",
-    "featured_product_wfJhJm",
     "ss_scrolling_announcement_bar_EP7XPB",
     "ss_media_grid_rmzBib",
+    "featured_product_wfJhJm",
     "rich_text_DR4hTm",
     "rich_text_jAhQaY",
     "ss_scrolling_images_6tGVfJ",
