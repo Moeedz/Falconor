@@ -12392,3 +12392,9 @@ shopify-payment-terms {
     padding-right: 24px;
   }
 }
+/* Judge.me review input text fix */
+.judgeme-review-form input,
+.judgeme-review-form textarea {
+    color: #000 !important;      /* black text */
+    background-color: #fff !important;  /* white background, if needed */
+}
