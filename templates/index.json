@@ -47,37 +47,6 @@
     },
     "featured_product_wfJhJm": {
       "type": "featured-product",
-      "blocks": {
-        "variant_picker_RWxpkt": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "selector_mode": "block",
-            "color_mode": "variant_image",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_HmDVHe": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_xAN3X8": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "rgba(0,0,0,0)",
-            "atc_button_text_color": "rgba(0,0,0,0)",
-            "buy_now_button_background": "rgba(0,0,0,0)",
-            "buy_now_button_text_color": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "variant_picker_RWxpkt",
-        "quantity_selector_HmDVHe",
-        "buy_buttons_xAN3X8"
-      ],
       "name": "Featured product",
       "settings": {
         "product": "falconor-stamina-structured-twill-cap",
