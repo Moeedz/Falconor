@@ -58,7 +58,18 @@
         "message_KTY6zT": {
           "type": "message",
           "settings": {
-            "text": "Welcome to Falconor - Where Premium Quality meets Excellence",
+            "text": "Welcome to Falconor",
+            "learn_more_text": "",
+            "title": "",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "message_kcdUiP": {
+          "type": "message",
+          "settings": {
+            "text": "Where Premium Quality meets Excellence",
             "learn_more_text": "",
             "title": "",
             "content": "",
@@ -69,7 +80,8 @@
       },
       "block_order": [
         "message-1",
-        "message_KTY6zT"
+        "message_KTY6zT",
+        "message_kcdUiP"
       ],
       "settings": {
         "announcement_bar_position": "non_sticky",
