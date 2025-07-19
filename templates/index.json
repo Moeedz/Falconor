@@ -327,6 +327,13 @@
             "url": ""
           }
         },
+        "image_Vzm8Tt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8389.png",
+            "url": ""
+          }
+        },
         "image_4NCAhB": {
           "type": "image",
           "settings": {
@@ -355,6 +362,13 @@
             "url": ""
           }
         },
+        "image_T7npwG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8390.png",
+            "url": ""
+          }
+        },
         "image_YmAVky": {
           "type": "image",
           "settings": {
@@ -365,10 +379,12 @@
       },
       "block_order": [
         "image_PJhY93",
+        "image_Vzm8Tt",
         "image_4NCAhB",
         "image_4Hfyhe",
         "image_NpHHxU",
         "image_kkVfxQ",
+        "image_T7npwG",
         "image_YmAVky"
       ],
       "name": "SS - Scrolling images",
