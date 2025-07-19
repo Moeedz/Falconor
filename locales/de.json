@@ -387,7 +387,7 @@
     "general": {
       "title": "Suche",
       "terms": "Ergebnisse für \"{{terms}}\"",
-      "search_placeholder": "Wonach suchst du?",
+      "search_placeholder": "Suchen",
       "no_results": "Es konnten keine Ergebnisse gefunden werden.",
       "new_search": "Neue Suche",
       "view_all_results": "Alle Ergebnisse anzeigen",
