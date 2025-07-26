@@ -45,6 +45,7 @@
     "stagger_blog_posts_apparition": false,
     "reveal_product_media": true,
     "round_color_swatches": false,
+    "color_swatch_config": "Dark Grey: #A9A9A9;",
     "show_vendor": false,
     "show_secondary_image": true,
     "product_add_to_cart": true,
